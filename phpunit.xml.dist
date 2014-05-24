@@ -1,16 +1,15 @@
 <phpunit backupGlobals="false"
          backupStaticAttributes="false"
-         bootstrap="test/bootstrap.php"
+         bootstrap="tests/bootstrap.php"
          colors="true"
          convertErrorsToExceptions="true"
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
-         processIsolation="true"
          stopOnFailure="false"
          syntaxCheck="false">
     <testsuites>
         <testsuite name="PayPal Test Suite">
-            <directory>./test/PayPal/</directory>
+            <directory>./tests/PayPal/</directory>
         </testsuite>
     </testsuites>
 </phpunit>

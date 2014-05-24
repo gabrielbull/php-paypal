@@ -18,9 +18,12 @@
     "require": {
         "php": ">=5.3"
     },
+    "require-dev": {
+        "phpunit/phpunit": "~4"
+    },
     "autoload": {
-        "psr-0": {
-            "PayPal": "src/"
+        "psr-4": {
+            "PayPal\\": "src/PayPal"
         }
     }
 }
